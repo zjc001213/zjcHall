@@ -1,0 +1,32 @@
+{
+  "name": "zjchalldemo",
+  "version": "1.0.0",
+  "description": "a demo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "author": "zjc",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.6",
+    "vue-loader-plugin": "^1.3.0",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "better-scroll": "^2.0.6",
+    "css-loader": "^5.0.1",
+    "vue": "^2.6.12",
+    "vue-lazyload": "^1.3.3",
+    "vue-router": "^3.4.9",
+    "vuex": "^3.6.0"
+  }
+}
